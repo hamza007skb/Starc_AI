@@ -22,13 +22,18 @@
     width: 990px;
 }
 
+.f-container {
+    padding: 0px 130px;
+}
+
 .f1-img {
-    max-width: 60%;
+    max-width: 97%;
 }
 
 .f2-img {
-    max-width: 50%;
+    max-width: 97%;
 }
+
 
 @media screen and (max-width: 1000px) {
     .heading {
@@ -52,18 +57,34 @@
         width: 825px;
     }
 
+    .f-container {
+        padding: 0px 110px;
+    }
+
     .f1-img {
-        max-width: 80%;
+        max-width: 99%;
     }
 
     .f2-img {
-        max-width: 75%;
+        max-width: 99%;
     }
 }
 
 @media (min-width: 850px) and (max-width: 890px) {
     .section1 {
         width: 104%;
+    }
+
+    .f-container {
+        padding: 0px 85px;
+    }
+
+    .f1-img {
+        max-width: 99%;
+    }
+
+    .f2-img {
+        max-width: 99%;
     }
 }
 
@@ -78,6 +99,18 @@
 
     .f2-img {
         max-width: 85%;
+    }
+
+    .f-container {
+        padding: 0px 60px;
+    }
+
+    .f1-img {
+        max-width: 99%;
+    }
+
+    .f2-img {
+        max-width: 99%;
     }
 
 }
@@ -113,6 +146,8 @@
     .unlock-success-with {
         font-size: 58px;
     }
+
+
 }
 
 @media (min-width: 750px) and (max-width: 776px) {
@@ -165,12 +200,16 @@
         width: 90%;
     }
 
+    .f-container {
+        padding: 0px 30px;
+    }
+
     .f1-img {
-        max-width: 100%;
+        max-width: 99%;
     }
 
     .f2-img {
-        max-width: 97%;
+        max-width: 99%;
     }
 
     .features {
@@ -536,6 +575,14 @@
     .accordion {
         width: 344px;
         padding: 36px 12px;
+    }
+
+    .f1-img {
+        max-width: 95%;
+    }
+
+    .f2-img {
+        max-width: 86%;
     }
 }
 
